@@ -18,12 +18,12 @@ const cardList=data
 
                 <div className={style.titleContainer}>
                     <p className={style.title}>التوثيق الموحد</p>
-                    <p className={style.subTitle}>لمشاريع إدارة التطوير والبرمجيات</p>
+                     <p className={style.subTitle}>لمشاريع إدارة التطوير والبرمجيات</p> 
                     </div>
                 
-                <div className={style.wraper}>
-                    <ListView items={cardList}  />
-                  </div>
+    
+                    <ListView items={cardList} className={style.wraper} />
+                  
                  
             
         </div>

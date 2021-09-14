@@ -49,7 +49,7 @@ $line-spacing-44: 44px;
 $line-spacing-68: 68px;
 
 .app{
-    background: transparent linear-gradient(180deg, $primary 0%, $primary_2 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(180deg, $primary 0%, $primary_2 100%) 0% 0% no-repeat padding-box;
  width:100%;
  height:100vh; 
  overflow-y: scroll;
@@ -106,8 +106,8 @@ $line-spacing-68: 68px;
 
 @media(max-width: 600px) {
     .app{
-    height: auto ;
-        
+    height: auto;
+        width: 100%;
     }
    
   }
