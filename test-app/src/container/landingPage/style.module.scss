@@ -30,7 +30,6 @@ margin-bottom:  288px;
 
 .title{
     display: block;
-   
     font: $font-style-normal ,normal ,$font-weight-bold ($font-size-64/$line-spacing-68), $font-family-tajawal;
     letter-spacing: $character-spacing-1-28;
     letter-spacing: 1.28px;
@@ -76,7 +75,12 @@ margin-bottom:  288px;
     width: 100%;
 }
 
-        .titleContainer{
+.logo{
+    margin-bottom: 42px;
+}
+
+      .titleContainer{
+           margin-top: 0;
             text-align: center;
             display: inline-block;
             width: 100%;
@@ -89,10 +93,14 @@ margin-bottom:  288px;
             height: 100%;
         }
 
-        .title{
+    .title{
+    font-size: 34px !important;
 
-    letter-spacing: 0px;
 
+        }
+
+        .subTitle{
+            font-size: 20px !important;
         }
 
        
