@@ -1,0 +1,166 @@
+@import '../../App.module.scss';
+
+.container{
+width: 1090px;
+height: auto;
+max-height: 793px;
+margin-top: 0;
+margin-right:139px;
+margin-bottom: 89px;
+margin-top: auto;
+margin-left: auto;
+position: relative;
+opacity: 1;
+z-index: 0;
+//border: 1px solid red;
+//overflow: hidden;
+
+
+}
+
+.overlay{
+    border-radius: 16px;
+    position:absolute;
+    top: 0;
+    width: 100%;
+    height:100%;
+    background: $shadow;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    padding: 16px;
+    opacity: 1;
+    z-index:1; 
+
+}
+.containtContainer{
+   
+    width: 100%;
+    max-height: fit-content;
+    z-index: 2;
+    opacity: 1;
+    margin-right:  92px;
+    margin-bottom: 34px;
+    direction: rtl;
+    padding:14px 0;
+   
+
+}
+
+.groupTitle{
+display: block;
+ width: 104px;
+ height: 32px;
+margin-top: 0;
+margin-bottom: 27px;
+text-align: right;
+height: 32px;
+font:$font-style-normal normal $font-weight-bold$font-size-32/$line-spacing-26 $font-family-tajawal;
+color: $text;
+text-align: center;
+font: normal normal bold 32px/26px Tajawal;
+letter-spacing: 0.8px;
+color: #D8F9FF;
+opacity: 1;
+}
+
+.cardContainer{
+display:inline-block;
+flex-direction: row;
+width:100% ;
+height: fit-content;
+}
+
+
+
+.card{  
+display: inline-block;
+ margin-left: 17px;
+width: 290px;
+height: 323px;
+box-shadow: 0px 3px 30px #2A86961A;
+border: 1px solid #1A626F;
+border-radius: 10px;
+overflow: hidden;
+margin-right:0 ;
+margin-bottom: 55px;
+position: relative;
+z-index: 1;
+opacity: 1;
+
+}
+
+
+
+
+.cardTop{
+    display: inline-block;
+    width: 100%;
+    height: 234px
+}
+
+.cardTitle{
+margin: 39px auto 34px;
+width: 60px;
+min-width: fit-content;
+height: 16px;
+font: $font-style-normal normal $font-weight-bold $font-size-16/$line-spacing-22 $font-family-tajawal;
+letter-spacing: $character-spacing-0;
+color: $text;
+text-align: center;
+font: normal normal bold 16px/22px Tajawal;
+letter-spacing: 0px;
+color: #D8F9FF;
+opacity: 1;
+
+}
+
+.cover{
+    opacity: 1 !important;
+    z-index: 3;
+    position: absolute;
+    top:0;
+    width: 290px;
+    height: 323px;
+  
+    }
+
+
+    
+    .coverTitle{
+    font: $font-style-normal normal $font-weight-bold 53px/75px $font-family-tajawal;
+    letter-spacing: $character-spacing-0;
+    color: $text;
+    text-align: center;
+   
+    letter-spacing: 0px;
+    color: #D8F9FF;
+    opacity: 1;
+
+    
+    }
+
+    @media(max-width: 600px) {
+        .container{
+          width: 100%;
+          flex-direction: column;
+          height: fit-content;
+    
+        }
+        .cardContainer{
+           height: fit-content;
+        }
+
+        .overlay{
+            height: auto;
+        }
+       
+      }
+
+
+      @media (max-width: 600px) {
+
+        .card{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }

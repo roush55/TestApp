@@ -1,0 +1,113 @@
+
+//app color 
+
+$primary: #122A47;
+$primary_2:#01152E;
+$primary_3: #15464F;
+$scondary: #237483;
+$base: #F5FDFF;
+$text: #D8F9FF;
+$base_2: #FFFFFF;
+$text_title: #2A8696;
+$shadow:#00000029;
+$border:#1A626F;
+$border_shadow:#2A86961A;
+
+//font style 
+
+
+$font-family-tajawal: Tajawal;
+$font-family-poppins: Poppins;
+$font-style-normal: normal;
+$font-weight-bold: bold;
+$font-weight-normal: normal;
+$font-weight-medium: medium;
+$font-size-14: 14px;
+$font-size-16: 16px;
+$font-size-20: 20px;
+$font-size-22: 22px;
+$font-size-24: 24px;
+$font-size-26: 26px;
+$font-size-32: 32px;
+$font-size-35: 35px;
+$font-size-64: 64px;
+$character-spacing-0: 0px;
+$character-spacing-0-4: 0.4px;
+$character-spacing-0-19: 0.19px;
+$character-spacing-0-64: 0.64px;
+$character-spacing-0-28: 0.28px;
+$character-spacing-1-28: 1.28px;
+$line-spacing-20: 20px;
+$line-spacing-22: 22px;
+$line-spacing-26: 26px;
+$line-spacing-28: 28px;
+$line-spacing-30: 30px;
+$line-spacing-34: 34px;
+$line-spacing-36: 36px;
+$line-spacing-43: 43px;
+$line-spacing-44: 44px;
+$line-spacing-68: 68px;
+
+.app{
+    background: transparent linear-gradient(180deg, $primary 0%, $primary_2 100%) 0% 0% no-repeat padding-box;
+ width:100%;
+ height:100vh; 
+ overflow-y: scroll;
+ padding: 0;
+ margin: 0;
+ 
+}
+
+.app::-webkit-scrollbar{ 
+    display: none;
+
+}
+
+.app{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+.bottomContainer{
+    background-color: transparent;
+    width: 100%;
+    height: 47px;
+    background: #031C3B 0% 0% no-repeat padding-box;
+    opacity: 1;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  
+  margin-top: 139px;
+  
+    
+     p{
+    
+        display: inline-block;
+        width:149px;
+        font: $font-style-normal normal $font-weight-normal $font-size-16/$line-spacing-20 $font-family-tajawal;
+        letter-spacing: $character-spacing-0;
+        color: $base;
+        font: normal normal normal 16px/20px Tajawal;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        text-align: left;
+        
+    }
+    }
+
+
+@media(max-width: 600px) {
+    .app{
+    height: auto ;
+        
+    }
+   
+  }
